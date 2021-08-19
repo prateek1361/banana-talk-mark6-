@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    font-family: bold;
+    margin: 0rem;
+    color: var(--black);
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+
+:root {
+    --primary: #3D087B;
+    --black: #F2C94C;
+    --width-break:600px;
+}
+
+nav {
+    background-color: var(--primary);
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin: 2rem 0rem;
+    font-size: large;
+    font-family: inherit;
+    padding: 1rem;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    color: #F2C94C;
+}
+
+#output {
+    border: 1px solid black;
+    display: block;
+    height: 10vh;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;;
+}
+
+footer div {
+    font-size: 2rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
